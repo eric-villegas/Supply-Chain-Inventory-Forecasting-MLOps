@@ -5,7 +5,7 @@ import os
 
 def process_retail_to_silver():
     # 1. Configuración - CAMBIA EL NOMBRE DE TU BUCKET AQUÍ
-    BUCKET_NAME = "eric-villegas-supplychain-data/bronze/" 
+    BUCKET_NAME = "s3://eric-villegas-supplychain-data/" 
     s3 = boto3.client('s3')
     
     print(f"Reading from s3://{BUCKET_NAME}/bronze/...")
@@ -13,7 +13,7 @@ def process_retail_to_silver():
     try:
         # 2. Descargar el archivo (Capa Bronze)
         # Asegúrate de que el nombre del archivo coincida con el que subiste
-        response = s3.get_object(Bucket=BUCKET_NAME, Key='bronze/online_retail_II.xlsx')
+        response = s3.get_object(Bucket=BUCKET_NAME, Key='bronze/Online_Retail.xlsx')
         data = response['Body'].read()
         
         # 3. Procesamiento con Pandas
