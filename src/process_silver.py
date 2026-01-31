@@ -5,7 +5,7 @@ import os
 
 def process_retail_to_silver():
     # 1. Configuración - CAMBIA EL NOMBRE DE TU BUCKET AQUÍ
-    BUCKET_NAME = "tu-nombre-de-bucket-aqui" 
+    BUCKET_NAME = "eric-villegas-supplychain-data/bronze/" 
     s3 = boto3.client('s3')
     
     print(f"Reading from s3://{BUCKET_NAME}/bronze/...")
