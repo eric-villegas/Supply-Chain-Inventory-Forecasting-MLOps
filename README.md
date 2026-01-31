@@ -26,4 +26,4 @@ This repository showcases a production-ready MLOps pipeline designed to handle t
 * **Nissan:** Standardized high-impact robotic maintenance procedures as a Project Manager.
 
 ---
-**Contact:** [eric.mavigo@gmail.com](mailto:eric.mavigo@gmail.com) | [LinkedIn: eric villegas](https://www.linkedin.com/in/evillegas90)
+**Contact:** [salecast.eric@gmail.com](mailto:salecast.eric@gmail.com) | [LinkedIn: eric villegas](https://www.linkedin.com/in/evillegas90)
